@@ -1,0 +1,5 @@
+module sudoku1
+typeinfo appsudoku1.qmltypes
+prefer :/qt/qml/sudoku1/
+Main 1.0 Main.qml
+

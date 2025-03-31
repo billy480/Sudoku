@@ -1,0 +1,10 @@
+--bare
+-I
+C:/Users/billy/Desktop/Cpp/sudoku1/sudoku1/build/Desktop_Qt_6_8_2_MinGW_64_bit-Release
+-I
+C:/Qt/6.8.2/mingw_64/qml
+--resource
+C:/Users/billy/Desktop/Cpp/sudoku1/sudoku1/build/Desktop_Qt_6_8_2_MinGW_64_bit-Release/.qt/rcc/qmake_sudoku1.qrc
+--resource
+C:/Users/billy/Desktop/Cpp/sudoku1/sudoku1/build/Desktop_Qt_6_8_2_MinGW_64_bit-Release/.qt/rcc/appsudoku1_raw_qml_0.qrc
+C:/Users/billy/Desktop/Cpp/sudoku1/sudoku1/Main.qml

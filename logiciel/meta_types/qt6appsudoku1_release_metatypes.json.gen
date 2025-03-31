@@ -1,0 +1,105 @@
+[
+    {
+        "classes": [
+            {
+                "className": "level",
+                "lineNumber": 7,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "name": "getcurrentlevel",
+                        "returnType": "int"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "level",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 4,
+                        "name": "setCurrentlevel",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 5,
+                        "name": "getBoard",
+                        "returnType": "QList<int>"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 0,
+                        "name": "currentlevel",
+                        "notify": "levelChanged",
+                        "read": "getcurrentlevel",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setCurrentlevel"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "board",
+                        "notify": "boardChanged",
+                        "read": "getBoard",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QList<int>",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "level",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "name": "levelChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "name": "boardChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "level",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 2,
+                        "name": "loadlevel",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "level.h",
+        "outputRevision": 68
+    }
+]
