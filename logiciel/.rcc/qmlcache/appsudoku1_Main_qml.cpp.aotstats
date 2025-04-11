@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 5,
-                        "durationMicroseconds": 4261,
+                        "durationMicroseconds": 2563,
                         "errorMessage": "Instruction \"generate_CallValue\" not implemented",
                         "functionName": "checkErrors",
                         "line": 34
@@ -14,23 +14,23 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 5,
-                        "durationMicroseconds": 4486,
+                        "durationMicroseconds": 2455,
                         "errorMessage": "QJSValue has no property called highlighted",
                         "functionName": "updateHighlighting",
-                        "line": 189
+                        "line": 240
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 5,
-                        "durationMicroseconds": 323,
+                        "durationMicroseconds": 126,
                         "errorMessage": "Cannot retrieve a non-object type by ID: lostDialog",
                         "functionName": "checkwin",
-                        "line": 210
+                        "line": 261
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 31,
-                        "durationMicroseconds": 5386,
+                        "durationMicroseconds": 3212,
                         "errorMessage": "QJSValue has no property called value",
                         "functionName": "onCompleted",
                         "line": 16
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 282,
+                        "durationMicroseconds": 115,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 96
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 20,
-                        "durationMicroseconds": 115,
+                        "durationMicroseconds": 70,
                         "errorMessage": "",
                         "functionName": "model",
                         "line": 101
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 35,
-                        "durationMicroseconds": 41,
+                        "durationMicroseconds": 27,
                         "errorMessage": "Cannot access value for name index",
                         "functionName": "row",
                         "line": 106
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 35,
-                        "durationMicroseconds": 24,
+                        "durationMicroseconds": 20,
                         "errorMessage": "Cannot access value for name index",
                         "functionName": "col",
                         "line": 107
@@ -70,314 +70,458 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 28,
+                        "durationMicroseconds": 19,
                         "errorMessage": "Cannot access value for name model",
                         "functionName": "color",
                         "line": 110
                     },
                     {
                         "codegenSuccessfull": false,
-                        "column": 27,
-                        "durationMicroseconds": 39,
-                        "errorMessage": "Cannot access value for name model",
-                        "functionName": "text",
-                        "line": 116
-                    },
-                    {
-                        "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 24,
+                        "durationMicroseconds": 17,
                         "errorMessage": "Cannot access value for name model",
                         "functionName": "color",
                         "line": 117
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 39,
-                        "durationMicroseconds": 76,
+                        "column": 35,
+                        "durationMicroseconds": 44,
                         "errorMessage": "",
-                        "functionName": "centerIn",
-                        "line": 115
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 38,
-                        "durationMicroseconds": 287,
-                        "errorMessage": "",
-                        "functionName": "acceptedButtons",
-                        "line": 123
+                        "functionName": "fill",
+                        "line": 116
                     },
                     {
                         "codegenSuccessfull": false,
-                        "column": 32,
-                        "durationMicroseconds": 61,
-                        "errorMessage": "Cannot access value for name sudokuModel",
-                        "functionName": "onClicked",
+                        "column": 30,
+                        "durationMicroseconds": 18,
+                        "errorMessage": "Cannot access value for name row",
+                        "functionName": "visible",
                         "line": 124
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 32,
-                        "durationMicroseconds": 68,
+                        "column": 34,
+                        "durationMicroseconds": 9486,
                         "errorMessage": "",
-                        "functionName": "onClicked",
-                        "line": 124
+                        "functionName": "top",
+                        "line": 125
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 73,
+                        "durationMicroseconds": 196,
                         "errorMessage": "",
-                        "functionName": "fill",
-                        "line": 122
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 34,
-                        "durationMicroseconds": 121,
-                        "errorMessage": "Cannot access value for name model",
-                        "functionName": "onPressed",
-                        "line": 142
+                        "functionName": "left",
+                        "line": 126
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 34,
-                        "durationMicroseconds": 63,
+                        "column": 36,
+                        "durationMicroseconds": 97,
                         "errorMessage": "",
-                        "functionName": "onPressed",
-                        "line": 142
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 31,
-                        "durationMicroseconds": 71,
-                        "errorMessage": "",
-                        "functionName": "centerIn",
-                        "line": 176
+                        "functionName": "right",
+                        "line": 127
                     },
                     {
                         "codegenSuccessfull": false,
-                        "column": 24,
-                        "durationMicroseconds": 268,
-                        "errorMessage": "method checkwin cannot be resolved.",
-                        "functionName": "onClicked",
-                        "line": 183
+                        "column": 30,
+                        "durationMicroseconds": 38,
+                        "errorMessage": "Cannot access value for name row",
+                        "functionName": "visible",
+                        "line": 134
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 27,
-                        "durationMicroseconds": 72,
+                        "column": 37,
+                        "durationMicroseconds": 122,
                         "errorMessage": "",
-                        "functionName": "fill",
-                        "line": 181
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 26,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Cannot resolve property type  for binding on standardButtons.",
-                        "functionName": "standardButtons",
-                        "line": 225
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 21,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Cannot resolve property type  for binding on onAccepted.",
-                        "functionName": "onAccepted",
-                        "line": 232
+                        "functionName": "bottom",
+                        "line": 135
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 34,
-                        "durationMicroseconds": 103,
+                        "column": 35,
+                        "durationMicroseconds": 127,
                         "errorMessage": "",
-                        "functionName": "horizontalAlignment",
-                        "line": 229
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 26,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Cannot resolve property type  for binding on standardButtons.",
-                        "functionName": "standardButtons",
-                        "line": 242
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 21,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Cannot resolve property type  for binding on onAccepted.",
-                        "functionName": "onAccepted",
-                        "line": 249
+                        "functionName": "left",
+                        "line": 136
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 34,
-                        "durationMicroseconds": 98,
+                        "column": 36,
+                        "durationMicroseconds": 95,
                         "errorMessage": "",
-                        "functionName": "horizontalAlignment",
-                        "line": 246
+                        "functionName": "right",
+                        "line": 137
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 30,
+                        "durationMicroseconds": 21,
+                        "errorMessage": "Cannot access value for name col",
+                        "functionName": "visible",
+                        "line": 144
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 27,
-                        "durationMicroseconds": 77,
+                        "column": 35,
+                        "durationMicroseconds": 88,
                         "errorMessage": "",
-                        "functionName": "fill",
-                        "line": 266
+                        "functionName": "left",
+                        "line": 145
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 34,
                         "durationMicroseconds": 85,
                         "errorMessage": "",
+                        "functionName": "top",
+                        "line": 146
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 37,
+                        "durationMicroseconds": 84,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 147
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 30,
+                        "durationMicroseconds": 21,
+                        "errorMessage": "Cannot access value for name col",
+                        "functionName": "visible",
+                        "line": 154
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 36,
+                        "durationMicroseconds": 82,
+                        "errorMessage": "",
+                        "functionName": "right",
+                        "line": 155
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 34,
+                        "durationMicroseconds": 81,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 156
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 37,
+                        "durationMicroseconds": 92,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 157
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 27,
+                        "durationMicroseconds": 28,
+                        "errorMessage": "Cannot access value for name model",
+                        "functionName": "text",
+                        "line": 165
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 28,
+                        "durationMicroseconds": 21,
+                        "errorMessage": "Cannot access value for name model",
+                        "functionName": "color",
+                        "line": 167
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 39,
+                        "durationMicroseconds": 51,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 164
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 38,
+                        "durationMicroseconds": 270,
+                        "errorMessage": "",
+                        "functionName": "acceptedButtons",
+                        "line": 173
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 32,
+                        "durationMicroseconds": 46,
+                        "errorMessage": "Cannot access value for name sudokuModel",
+                        "functionName": "onClicked",
+                        "line": 174
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 32,
+                        "durationMicroseconds": 52,
+                        "errorMessage": "",
+                        "functionName": "onClicked",
+                        "line": 174
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 35,
+                        "durationMicroseconds": 51,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 172
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 34,
+                        "durationMicroseconds": 76,
+                        "errorMessage": "Cannot access value for name model",
+                        "functionName": "onPressed",
+                        "line": 192
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 34,
+                        "durationMicroseconds": 35,
+                        "errorMessage": "",
+                        "functionName": "onPressed",
+                        "line": 192
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 44,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 226
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 24,
+                        "durationMicroseconds": 205,
+                        "errorMessage": "method checkwin cannot be resolved.",
+                        "functionName": "onClicked",
+                        "line": 234
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 27,
+                        "durationMicroseconds": 44,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 232
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 26,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on standardButtons.",
+                        "functionName": "standardButtons",
+                        "line": 276
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 21,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on onAccepted.",
+                        "functionName": "onAccepted",
+                        "line": 283
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 34,
+                        "durationMicroseconds": 59,
+                        "errorMessage": "",
                         "functionName": "horizontalAlignment",
+                        "line": 280
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 26,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on standardButtons.",
+                        "functionName": "standardButtons",
+                        "line": 293
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 21,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on onAccepted.",
+                        "functionName": "onAccepted",
                         "line": 300
                     },
                     {
-                        "codegenSuccessfull": false,
-                        "column": 20,
-                        "durationMicroseconds": 34,
-                        "errorMessage": "Cannot access value for name selected_level",
-                        "functionName": "color",
-                        "line": 315
-                    },
-                    {
                         "codegenSuccessfull": true,
-                        "column": 31,
-                        "durationMicroseconds": 64,
+                        "column": 34,
+                        "durationMicroseconds": 87,
                         "errorMessage": "",
-                        "functionName": "centerIn",
-                        "line": 314
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 24,
-                        "durationMicroseconds": 257,
-                        "errorMessage": "Cannot access value for name levelnow",
-                        "functionName": "onClicked",
-                        "line": 320
+                        "functionName": "horizontalAlignment",
+                        "line": 297
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 75,
+                        "durationMicroseconds": 58,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 319
+                        "line": 317
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 34,
+                        "durationMicroseconds": 50,
+                        "errorMessage": "",
+                        "functionName": "horizontalAlignment",
+                        "line": 351
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 20,
-                        "durationMicroseconds": 35,
+                        "durationMicroseconds": 18,
                         "errorMessage": "Cannot access value for name selected_level",
                         "functionName": "color",
-                        "line": 340
+                        "line": 366
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 67,
+                        "durationMicroseconds": 37,
                         "errorMessage": "",
                         "functionName": "centerIn",
-                        "line": 339
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 24,
-                        "durationMicroseconds": 187,
-                        "errorMessage": "Cannot access value for name levelnow",
-                        "functionName": "onClicked",
-                        "line": 345
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 27,
-                        "durationMicroseconds": 63,
-                        "errorMessage": "",
-                        "functionName": "fill",
-                        "line": 344
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 20,
-                        "durationMicroseconds": 25,
-                        "errorMessage": "Cannot access value for name selected_level",
-                        "functionName": "color",
                         "line": 365
                     },
                     {
-                        "codegenSuccessfull": true,
-                        "column": 31,
-                        "durationMicroseconds": 59,
-                        "errorMessage": "",
-                        "functionName": "centerIn",
-                        "line": 364
-                    },
-                    {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 184,
+                        "durationMicroseconds": 133,
                         "errorMessage": "Cannot access value for name levelnow",
                         "functionName": "onClicked",
-                        "line": 370
+                        "line": 371
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 62,
+                        "durationMicroseconds": 39,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 369
+                        "line": 370
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 20,
-                        "durationMicroseconds": 28,
+                        "durationMicroseconds": 17,
                         "errorMessage": "Cannot access value for name selected_level",
                         "functionName": "color",
-                        "line": 390
+                        "line": 391
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 62,
+                        "durationMicroseconds": 39,
                         "errorMessage": "",
                         "functionName": "centerIn",
-                        "line": 389
+                        "line": 390
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 329,
+                        "durationMicroseconds": 110,
                         "errorMessage": "Cannot access value for name levelnow",
                         "functionName": "onClicked",
-                        "line": 395
+                        "line": 396
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 112,
+                        "durationMicroseconds": 39,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 394
+                        "line": 395
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 20,
+                        "durationMicroseconds": 15,
+                        "errorMessage": "Cannot access value for name selected_level",
+                        "functionName": "color",
+                        "line": 416
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 39,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 415
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 24,
+                        "durationMicroseconds": 108,
+                        "errorMessage": "Cannot access value for name levelnow",
+                        "functionName": "onClicked",
+                        "line": 421
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 27,
+                        "durationMicroseconds": 36,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 420
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 20,
+                        "durationMicroseconds": 15,
+                        "errorMessage": "Cannot access value for name selected_level",
+                        "functionName": "color",
+                        "line": 441
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 37,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 440
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 24,
+                        "durationMicroseconds": 110,
+                        "errorMessage": "Cannot access value for name levelnow",
+                        "functionName": "onClicked",
+                        "line": 446
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 27,
+                        "durationMicroseconds": 38,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 445
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 17,
-                        "durationMicroseconds": 57,
+                        "durationMicroseconds": 26,
                         "errorMessage": "Cannot access value for name levelnow",
                         "functionName": "target",
-                        "line": 405
+                        "line": 456
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 9,
-                        "durationMicroseconds": 100,
+                        "durationMicroseconds": 50,
                         "errorMessage": "Cannot access value for name levelnow",
                         "functionName": "onBoardChanged",
-                        "line": 406
+                        "line": 457
                     }
                 ],
                 "filepath": "C:/Users/billy/Desktop/Cpp/sudoku1/sudoku1/Main.qml"

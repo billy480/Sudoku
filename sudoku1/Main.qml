@@ -95,7 +95,7 @@ Window {
     Grid {
         anchors.centerIn: parent
         columns: 9
-        spacing: 2
+        spacing: 0
 
         Repeater {
             model: sudokuModel
@@ -111,9 +111,59 @@ Window {
 
                 property bool isFocused: false  // Focalisation du case
 
+                // les cotes du 3*3
+                Rectangle {
+                    anchors.fill: parent
+                    color: model.isError ? "red" : (model.highlighted ? "lightgray" : "white")
+                    border.color: "black"
+                    border.width: 1
+                }
+
+                // top
+                Rectangle {
+                    visible: row % 3 === 0
+                    anchors.top: parent.top
+                    anchors.left: parent.left
+                    anchors.right: parent.right
+                    height: 2
+                    color: "black"
+                }
+
+                // bot
+                Rectangle {
+                    visible: (row + 1) % 3 === 0
+                    anchors.bottom: parent.bottom
+                    anchors.left: parent.left
+                    anchors.right: parent.right
+                    height: 2
+                    color: "black"
+                }
+
+                // gauche
+                Rectangle {
+                    visible: col % 3 === 0
+                    anchors.left: parent.left
+                    anchors.top: parent.top
+                    anchors.bottom: parent.bottom
+                    width: 2
+                    color: "black"
+                }
+
+                // droite
+                Rectangle {
+                    visible: (col + 1) % 3 === 0
+                    anchors.right: parent.right
+                    anchors.top: parent.top
+                    anchors.bottom: parent.bottom
+                    width: 2
+                    color: "black"
+                }
+
+
                 Text {
                     anchors.centerIn: parent
                     text: model.value !== 0 ? model.value : ""
+                    font.pointSize: 14
                     color: model.isFixed ? "black":"blue"
                     font.bold: true
                 }
@@ -175,6 +225,7 @@ Window {
         Text {
             anchors.centerIn: parent
             text: 'Envoyer le resultat'
+            font.pointSize: 9
         }
 
         MouseArea {
@@ -279,7 +330,7 @@ Window {
             y: 40
             width: 317
             height: 16
-            text: qsTr(" Changez les en tapant les flèches haut et bass")
+            text: qsTr(" Changez les en tapant les flèches haut et bas")
             font.pixelSize: 12
         }
 
@@ -360,7 +411,7 @@ Window {
         color: "#eeefe034"
         focus: true
         Text {
-            text: "nomale"
+            text: "normale"
             anchors.centerIn: parent
             color: selected_level === 3 ? "red" : "black"
         }

@@ -44,7 +44,12 @@ void level::generateBoard(int level){//ici, on génère et change les grilles
         delete[] board;
     }
 
+    if( level>4){
+        throw level;
+    }
+
     board = new int[81];
+
 
     switch (level) {
     case 1: {
