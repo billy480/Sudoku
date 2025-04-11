@@ -14,19 +14,19 @@ Par contre, Le logiciel peut être lancé tout seul en démarrant le fichier app
 ## Visuals
 
 L'interface de jeu est comme suit. 
-！[image](https://gitlab.ec-lyon.fr/bxu/projet_sudoku/-/blob/main/img/interface.png)
+！[image](https://github.com/billy480/Sudoku/blob/main/img/interface.png)
 
 En haut du jeu, on a l'explication des intructions pour jouer. En bas, on a 4 boutons jaunes pour choisir le niveau de difficulté des grilles.
-！[image](https://gitlab.ec-lyon.fr/bxu/projet_sudoku/-/blob/main/img/choose_level.png)
+！[image](https://github.com/billy480/Sudoku/blob/main/img/choose_level.png)
 
 Lorsque l'on choisit une case, les autres cases concernées deviennent grises comme un hint.
-！[image](https://gitlab.ec-lyon.fr/bxu/projet_sudoku/-/blob/main/img/chosen.png)
+！[image](https://github.com/billy480/Sudoku/blob/main/img/chosen.png)
 
 Lorsque l'on note un chiffre sur la case, la case devient rouge si les chiffres de la grille ne remplissent pas les contraintes du jeu.
-！[image](https://gitlab.ec-lyon.fr/bxu/projet_sudoku/-/blob/main/img/false.png)
+！[image](https://github.com/billy480/Sudoku/blob/main/img/false.png)
 
 L'utilisateur est aussi capable de vérifier si la partie est gagnée ou erronée en cliquant sur le bouton 'envoyer le résultat' en bas de l'interface.
-！[image](https://gitlab.ec-lyon.fr/bxu/projet_sudoku/-/blob/main/img/envoyer_res.png)
+！[image](https://github.com/billy480/Sudoku/blob/main/img/envoyer_res.png)
 
 
 
